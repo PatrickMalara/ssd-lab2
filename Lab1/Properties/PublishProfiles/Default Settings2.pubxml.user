@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/ahmVzTovkGzmoprl5ZR4QAAAAACAAAAAAAQZgAAAAEAACAAAAA1ViRX+nYZm692PjBf+nyxa0zHT5rHB6O3LEMibaWaLgAAAAAOgAAAAAIAACAAAADshrM2ClvZcbxBa59vCa8iZYbibjbsviwHQ52zIU7LuyAAAABXKJ6qeqmk/Kbn8ZE9nkC4FFqzBnWyLNM9WQ2ferbJgkAAAAAPQ0PS1Awf02uvF8x07sDdpVZou88KJlWRXV2NitARSodRfweqH1ht8zbqANUiPhQKBnoVHDhi2ZFE/ydCHMfN</EncryptedPassword>
+    <History>False|2021-10-08T15:22:12.1468279Z;False|2021-10-08T11:21:23.8450009-04:00;False|2021-10-08T11:18:21.2994938-04:00;False|2021-10-08T11:03:22.4681988-04:00;False|2021-10-08T11:00:42.3016028-04:00;False|2021-10-08T10:59:27.5622427-04:00;False|2021-10-08T10:53:37.1897946-04:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL5104.site4now.net%3bInitial Catalog=db_a7ad5a_lab2%3bUser Id=db_a7ad5a_lab2_admin%3bPassword=Password!1</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Lab1.Data.ApplicationDbContext">
+      <Value>Data Source=SQL5104.site4now.net%3bInitial Catalog=db_a7ad5a_lab2%3bUser Id=db_a7ad5a_lab2_admin%3bPassword=Password!1</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
